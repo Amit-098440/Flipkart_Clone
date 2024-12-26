@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+:root {
+    --main-bg-color: rgb(0, 102, 255);
+  }
+  
+*{
+
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 6vh;
+    background-color:var(--main-bg-color);
+}
+.flip{
+    display:flex;
+    align-items: center;
+}
+nav{
+    display:flex;
+}
+.flip img{
+    width: 80px;
+    padding: 0 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0 15px;
+}
+nav ul li a:hover{
+    color:rgb(172, 189, 236);
+    font-weight:bold;
+}
+nav ul{
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    list-style: none;
+}
+
+
+.container{
+    min-height: calc(350vh - 5vh - 10vh);
+}
+
+
+.search{
+   display:flex;
+   align-items: center;
+}
+.search input{
+    width: 250px;
+    height: 20px;
+    border-radius: 4px;
+    margin-left: 80px;
+    padding: 0 5px;
+}
+
+
+footer{
+    height: 10vh;
+    background-color:var(--main-bg-color);;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+}
+
+hr{
+    color: rgb(196, 196, 238);
+}
+
+.card-item{
+    text-align: center;
+}
+.mouse{
+    display:inline-flex;
+    flex-direction: column;
+    margin-left:35px;
+    margin-top:20px ;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(228, 216, 216);
+}
+
+
+.phone-item{
+    text-align: center;
+}
+.ph{
+    display:inline-flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(236, 225, 225);
+}
+
+
+.shirt-items{
+    text-align: center;
+    
+}
+.men{
+    display:inline-flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-top: 20px;
+    border: 1px solid #121111;
+    text-align: center;
+}
